@@ -99,8 +99,10 @@
 .chat{
    padding: 10px;
    background-color: green;
-   position: absolute;
-   right: 0px;
+   position: fixed;
+   top: 90%;
+   left: 91%;
+   /* right: 0px; */
 }
 .chat a{
    color: white;
