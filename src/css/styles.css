@@ -9,6 +9,9 @@
    text-decoration: none;
    color: black;
  }
+ main{
+   margin-bottom: 60px;
+ }
  .header_pagina_capacitacion_riwi{
     display: flex;
     align-items: center;
@@ -37,7 +40,6 @@
    height: 30px;
 }
 .python{
-   
    width: 50%;
 }
 .html{
@@ -55,16 +57,14 @@
 .mongo_db{
    width: 50%
 }
-.texto{
-   max-width: 500px;
-   justify-content: right;
-}
+
 .etapa_avanzada{
 
    margin-top: 60px;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   margin-bottom: px;
 
 }
 .etapa_avanzada_titulo{
@@ -92,7 +92,20 @@
 .laravel{
    width: 50%
 }
-
+.texto{
+   max-width: 500px;
+   float: right;
+}
+.chat{
+   padding: 10px;
+   background-color: green;
+   position: absolute;
+   right: 0px;
+}
+.chat a{
+   color: white;
+   margin: 0px 10px 0px 0px;
+}
 .footer{
    display: flex;
    background-color: white;
@@ -111,12 +124,5 @@
 
 }
 .redes_sociales span{
-   margin: 0px 10px;
-}
-.chat{
-   display: flex;
-   align-items: end;
-   position: sticky;
-   top: 0px;
-
+   margin: 0px 10px 0px 0px;
 }
