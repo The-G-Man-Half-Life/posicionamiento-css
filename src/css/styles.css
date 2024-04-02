@@ -101,7 +101,7 @@
    background-color: green;
    position: fixed;
    top: 90%;
-   left: 91%;
+   right: 0%;
    /* right: 0px; */
 }
 .chat a{
